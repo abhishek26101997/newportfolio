@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: D4D4D4;
+}
+.navigate {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin: 0% 4%;
+  align-items: center;
+  padding: 2% 0 1% 0;
+}
+.navbar .main {
+  width: 70%;
+}
+.navbar .main h1 {
+  font-family: "monospace", "san-seriff";
+  font-size: 3vw;
+}
+.navbar .main h1 span {
+  color: #00abae;
+  font-size: 3vw;
+}
+.navbar .options {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  width: 30%;
+  font-weight: bold;
+  font-size: 1vw;
+}
+.navbar .options p a {
+  text-decoration: none;
+  color: black;
+}
+.intro {
+  display: flex;
+  margin: 4%;
+  justify-content: space-between;
+  align-items: center;
+}
+.intro .mainimage img {
+  width: 25vw;
+  border-radius: 50%;
+  border: 5px solid #00abae;
+}
+.intro .introline h1 {
+  padding: 2% 0 2% 0;
+  font-size: 2vw;
+}
+.intro .buttons {
+  display: flex;
+  gap: 2%;
+}
+.intro .buttons button {
+  background-color: #00abae;
+  padding: 2%;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.8vw;
+}
+.intro .buttons button a {
+  text-decoration: none;
+  color: white;
+}
+h2 {
+  margin: 4%;
+  font-size: 2vw;
+}
+.info {
+  display: flex;
+  margin: 4%;
+  gap: 5%;
+  font-family: roboto;
+  font-weight: lighter;
+}
+.info .brief h4 {
+  padding-bottom: 2%;
+  font-size: 1.3vw;
+}
+.info .brief p {
+  text-align: justify;
+  font-size: 1vw;
+}
+.icons {
+  display: flex;
+  margin: 0 4%;
+  justify-content: space-between;
+}
+.icons img {
+  max-width: 10vw;
+}
+.projects {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 4%;
+  align-items: stretch;
+  padding-bottom: 2%;
+  gap: 2%;
+}
+.projects img {
+  width: 35vw;
+}
+.projects .projectinfo h4 {
+  padding-bottom: 2vw;
+  font-size: 1.3vw;
+}
+.projects .projectinfo p {
+  padding-bottom: 0.8%;
+  font-size: 1.2vw;
+  color: 575757;
+}
+
+#desc {
+  padding-bottom: 2%;
+}
+.projects .projectinfo p span {
+  font-weight: bold;
+  color: black;
+}
+.projects .projectinfo .buttons {
+  padding-top: 2%;
+}
+.projects .projectinfo .buttons button {
+  background-color: #00abae;
+  padding: 2%;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.8vw;
+}
+.projects .projectinfo .buttons button a {
+  text-decoration: none;
+  color: white;
+}
+.footer {
+  padding-top: 2%;
+  text-align: center;
+}
+.footer h1 {
+  font-size: 3vw;
+}
+.footer p {
+  padding: 1% 0 2% 0;
+  font-size: 1.3vw;
+}
+
+.footer .logos {
+  border: none;
+  display: flex;
+  justify-content: center;
+  gap: 1%;
+  padding-top: 1%;
+  border-top: 1px solid black;
+}
+#copyright {
+  font-size: 1vw;
+}
+.menuicon img {
+  width: 3vw;
+}
+.menuicon {
+  display: none;
+}
+#menu{
+  display:none;
+}
+
+@media screen and (max-width: 900px) {
+  .menuicon {
+    display: block;
+    width: 5vw;
+    font-size: 2vw;
+  }
+  .navbar .options {
+    display: none;
+  }
+  #menu p a {
+    text-decoration: none;
+    color: black;
+    font-size:1.5vw;
+  }
+}
